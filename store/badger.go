@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/MixinNetwork/mixin/logger"
 	"github.com/dgraph-io/badger/v3"
+	"github.com/mvg-fi/common/logger"
 )
 
 type BadgerStore struct {
