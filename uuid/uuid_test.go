@@ -1,4 +1,4 @@
-package utils
+package uuid
 
 import (
 	"fmt"
@@ -16,4 +16,8 @@ func TestShortenUUID(t *testing.T) {
 	fmt.Println(RestoreUUID(ShortenUUID(uuid)))
 
 	r.Equal(uuid, RestoreUUID(ShortenUUID(uuid)))
+}
+
+func TestNewUUID(t *testing.T) {
+	println(NewV4())
 }
