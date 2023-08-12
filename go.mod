@@ -1,6 +1,6 @@
 module github.com/mvg-fi/common
 
-go 1.20
+go 1.21
 
 require (
 	github.com/MixinNetwork/bot-api-go-client v1.7.3
