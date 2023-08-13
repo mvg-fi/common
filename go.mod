@@ -7,7 +7,6 @@ require (
 	github.com/MixinNetwork/mixin v0.15.2
 	github.com/MixinNetwork/nfo v0.3.4
 	github.com/MixinNetwork/trusted-group v0.5.0
-	github.com/dgraph-io/badger/v3 v3.2103.5
 	github.com/dgraph-io/badger/v4 v4.1.0
 	github.com/fox-one/mixin-sdk-go v1.7.9
 	github.com/gofrs/uuid v4.4.0+incompatible
@@ -21,7 +20,6 @@ require (
 	github.com/MixinNetwork/msgpack/v4 v4.4.0 // indirect
 	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce // indirect
 	github.com/bwesterb/go-ristretto v1.2.3 // indirect
-	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dchest/blake2b v1.0.0 // indirect
