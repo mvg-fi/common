@@ -8,6 +8,7 @@ require (
 	github.com/MixinNetwork/nfo v0.3.4
 	github.com/MixinNetwork/trusted-group v0.5.0
 	github.com/dgraph-io/badger/v3 v3.2103.5
+	github.com/dgraph-io/badger/v4 v4.1.0
 	github.com/fox-one/mixin-sdk-go v1.7.9
 	github.com/gofrs/uuid v4.4.0+incompatible
 	github.com/stretchr/testify v1.8.4
