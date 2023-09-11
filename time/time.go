@@ -16,6 +16,10 @@ func UTCP8Now() string {
 	return time.Now().In(time.FixedZone("UTC+8", 8*60*60)).Format(ISO8601)
 }
 
+func UTCNowAddMinutes(mins int) string {
+	return time.Now().UTC().Add(time.Duration(mins) * time.Minute).Format(ISO8601)
+}
+
 func Parse(t string) (time.Time, error) {
 	var deft time.Time
 	parsedTime, err := time.Parse(ISO8601, t)
